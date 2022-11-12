@@ -1,147 +1,36 @@
-<style>
-    .subscribe{
-        background-color: rgb(200, 0, 0);
-        height: 36px;
-        width: 105px;
-        border-radius: 3px;
-        border: none;
-        cursor: pointer;
-        color: white;
-        margin-right: 8px;
-        transition: opacity 0.5s;
-    }
-
-    .subscribe:hover{
-        opacity: 0.8;
-    }
-
-    .subscribe:active{
-        opacity: 0.5;
-    }
-
-    .join{
-        background-color: white;
-        color: rgb(41, 118, 211);
-        border-style: solid;
-        border-color: rgb(41, 118, 211);
-        height: 36px;
-        width: 62px;
-        border-radius: 2px;
-        cursor: pointer;
-        transition: background-color 0.5s, color 1s;
-    }
-
-    .join:hover{
-        background-color: rgb(41, 118, 211);
-        color: white;
-    }
-
-    .join:active{
-        opacity: 0.8;
-    }
-
-    .tweet{
-        background-color: rgb(2, 158, 255);
-        color: white;
-        border-style: solid;
-        border: none;
-        height: 36px;
-        width: 74px;
-        border-radius: 18px;
-        font-weight: bold;
-        font-size: 15px;
-        cursor: pointer;
-        margin-left: 8px;
-        transition: box-shadow 1s;
-    }
-
-    .tweet:hover{
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.18);
-    }
-
-    .tweet:active{
-        opacity: 0.8;
-    }
-
-    .abtme{
-        font-size: xx-large;
-        font-weight: bolder;
-        color: rgb(15, 110, 106);
-        text-align: center;
-    }
-
-    .abtmee{
-        font-size: x-large;
-    }
-
-</style>
-
-<button class="subscribe">
-    SUBSCRIBE
-</button>
-
-<button class="join">
-    JOIN
-</button>
-
-<button class="tweet">
-    Tweet
-</button>
-
-<p>
-     
-</p>
-<a href="https://www.youtube.com/watch?v=qnxYiaHRPFY" target="_blank">
-    Watch Harris J-Eid Mubarak song
-</a>
-<p> 
-     
-</p>
-<a href="https://www.youtube.com/c/awakeningrecords" target="_blank">See Awaking music YouTube channel</a>
-<p> 
-     
-</p>
-<a href="https://www.youtube.com/channel/UCkZCizaUsLNC-T_osXPiElw" target="_blank">
-    See Harris J YouTube channel
-</a>
-<p> 
-     
-</p>
-<a href="https://www.youtube.com/channel/UCMBXjVFU51CJ047U1Wp3JKQ" target="_blank">
-    See Maher Zain YouTube channel
-</a>
-
-<p class="abtme">
-    About Me
-</p>
-
-<p class="abtmee">
-    My name is Tawsiful Islam. I am 12 years old. I live in Bangladesh.
-</p>
-
-<p class="abtmee">
-    I like PYTHON, HTML, CSS, UNITY, JS.
-</p>
-
-<p class="abtme">
-    My Family
-</p>
-<p class="abtmee">
-    There are 4 members in our Family.
-</p>
-
-<p class="abtmee">
-    My mother name is Tamanna Sultana.
-</p>
-
-<p class="abtmee">
-    My Father name is Mazedul Islam.
-</p>
-
-<p class="abtmee">
-    My sister name is Tohfa Jannat.
-</p>
-
-<p class="abtmee">
-    My name is Tausiful Islam.
-</p>
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Save Text As File | Walkthon</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <textarea spellcheck="false" placeholder="Enter something to save" required>Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsuam has been the industries standard dummy texts ever since this 1500s, when an unknown printer took a galley of type and scrambled it to make a type of dollar specimen book. It have survived not only five centuries, but also from the leap into electronic typesetting.</textarea>
+      <div class="file-options">
+        <div class="option file-name">
+          <label>File name</label>
+          <input type="text" spellcheck="false" placeholder="Enter file name">
+        </div>
+        <div class="option save-as">
+          <label>Save as</label>
+          <div class="select-menu">
+            <select>
+              <option value="text/plain">Text File (.txt)</option>
+              <option value="text/javascript">JS File (.js)</option>
+              <option value="text/html">HTML File (.html)</option>
+              <option value="image/svg+xml">SVG File (.svg)</option>
+              <option value="application/msword">Doc File (.doc)</option>
+              <option value="application/vnd.ms-powerpoint">PPT File (.ppt)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <button class="save-btn" type="button">Save As Text File</button>
+    </div>
+  </body>
+</html>
